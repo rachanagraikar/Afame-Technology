@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact - Rachana G Raikar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="navbar-left">
+                <img src="/Users/rachanagraikar/Downloads/slider/pic/logo22-removebg-preview.png" class="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="works.html">MY WORKS</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-content">
+            <div class="contact-photo">
+                <img src="/Users/rachanagraikar/Downloads/slider/pic/Rachana_Photo-removebg-preview.png" class="profile-pic">
+            </div>
+            <div class="contact-info">
+                <h1>Contact Me</h1>
+                <p>Feel free to reach out to me for collaboration, job opportunities, or any queries!</p>
+
+                <div class="contact-details">
+                    <p><strong>Phone:</strong> +91 8431882167</p>
+                    <p><strong>Email:</strong> rachanagraikar@gmail.com</p>
+                    <p><strong>Location:</strong> Channagiri, Davangere District</p>
+                </div>
+
+                <div class="social-links">
+                    <p><a href="https://www.linkedin.com/in/rachana-g-raikar-203660191/" target="_blank">LinkedIn</a></p>
+                    <p><a href="https://github.com/raikarrachanag" target="_blank">GitHub</a></p>
+                </div>
+
+                <form action="submit_contact.php" method="POST" class="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Rachana G. Raikar</title>
+    <link rel="stylesheet" href="hireme.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Post a Job for Rachana G. Raikar</h1>
+            <p>Fill in the form below to share job details and collaborate on projects.</p>
+        </header>
+
+        <!-- Job Form Section -->
+        <section class="job-form">
+            <form action="submit_form.php" method="POST">
+                <!-- Job Title -->
+                <div class="form-group">
+                    <label for="job-title">Job Title:</label>
+                    <input type="text" id="job-title" name="job-title" placeholder="Enter job title" required>
+                </div>
+
+                <!-- Job Description -->
+                <div class="form-group">
+                    <label for="job-description">Job Description:</label>
+                    <textarea id="job-description" name="job-description" rows="5" placeholder="Describe the job in detail" required></textarea>
+                </div>
+
+                <!-- Category -->
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select Category</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="ai-ml">AI/ML Development</option>
+                        <option value="backend">Backend Development</option>
+                        <option value="frontend">Frontend Development</option>
+                    </select>
+                </div>
+
+                <!-- Budget -->
+                <div class="form-group">
+                    <label for="budget">Budget (in INR):</label>
+                    <input type="number" id="budget" name="budget" placeholder="Enter budget" required>
+                </div>
+
+                <!-- Language -->
+                <div class="form-group">
+                    <label for="language">Preferred Language:</label>
+                    <select id="language" name="language" required>
+                        <option value="">Select Language</option>
+                        <option value="english">English</option>
+                        <option value="telugu">Telugu</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+                </div>
+
+                <!-- Post Privately -->
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="private" value="yes"> Post this job privately?
+                    </label>
+                </div>
+
+                <!-- Multiple Hire -->
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="multiple-hire" value="yes"> Multiple Hire
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Post Job</button>
+                   
+                </div>
+                <div class="info">
+                    <a href="index.html">Back</a>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
